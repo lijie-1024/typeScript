@@ -28,9 +28,13 @@
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 import MenuBar from "../components/MenuBar.vue";
+// @ts-ignore
 import MD1 from "../md/ts01语法.md";
+// @ts-ignore
 import MD2 from "../md/ts02安装运行.md";
+// @ts-ignore
 import MD3 from "../md/ts03vue+ts.md";
+// @ts-ignore
 import MD4 from "../md/ts04vue+ts案例.md";
 import marked from "marked";
 @Component({
@@ -44,7 +48,7 @@ export default class Markdown extends Vue {
   created() {
     this.context = marked(MD3);
   }
-  mdChange(num, title) {
+  mdChange(num:number, title:string) {
     this.title = title;
     if (num == 1) {
       this.context = marked(MD1);

@@ -114,7 +114,7 @@ export default class Home extends Vue {
     return this.count++;
   }
   // vuex
-  showEdit(item) {
+  showEdit(item:any) {
     this.$store.commit("SHOW_EDIT", item);
   }
 }
