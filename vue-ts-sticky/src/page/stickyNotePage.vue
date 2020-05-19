@@ -7,7 +7,6 @@
 </template>
 
 <script lang="ts">
-import  "../../public/common.css";
 
 import { Component, Vue } from "vue-property-decorator";
 import MenuBar from "../components/MenuBar.vue";
@@ -33,4 +32,5 @@ export default class App extends Vue {
 </script>
 
 <style>
+@import  "../assets/common.css";
 </style>
