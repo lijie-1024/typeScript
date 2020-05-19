@@ -1,6 +1,6 @@
 
 <template>
-  <div class="hello">
+  <div class="hello container">
     <MenuBar />
     <router-link :to="{path:'learn'}">测试路由守卫-->去learn</router-link>
     <h1>{{handleReset("测试mixins111")}}</h1>
