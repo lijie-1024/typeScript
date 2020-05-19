@@ -1,7 +1,7 @@
 # typeScript学习笔记
 
 ## 项目目录
-my-vueTStest :简单的一个ts+vue的语法模板项目
+my-vuets-test :简单的一个ts+vue的语法模板项目
 
 ts：在html中使用ts,及ts语法
 
