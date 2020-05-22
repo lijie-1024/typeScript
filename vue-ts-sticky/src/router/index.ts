@@ -4,7 +4,7 @@ import stickyNotePage from '../page/stickyNotePage.vue';
 
 export default new Router({
     // history模式
-    mode: 'history',
+    // mode: 'history',
     // base: process.env.BASE_URL,
     routes: [
         // 常规模块加载
