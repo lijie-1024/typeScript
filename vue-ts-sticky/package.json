@@ -17,7 +17,7 @@
     "@vue/cli-plugin-babel": "~4.3.0",
     "@vue/cli-plugin-typescript": "~4.3.0",
     "@vue/cli-plugin-vuex": "~4.3.0",
-    "@vue/cli-service": "~4.3.0",
+    "@vue/cli-service": "~5.0.8",
     "html-loader": "^1.1.0",
     "markdown-loader": "^5.1.0",
     "typescript": "~3.8.3",
